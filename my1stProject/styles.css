@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: rgb(4, 44, 118);
+  background: #00000084;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,33 +43,34 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: rgb(115, 213, 255);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
-  transition: all .5s;
+  transition: all .10s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(138, 237, 255);
 }
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center ;
+  background: url('images/DarkSn1.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
+  
 }
 header {
-  line-height: 1.5;
+  line-height: 1.1;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -79,28 +80,36 @@ header .profile-image:hover {
 .tag {
   background-color: #efefef00;
   color: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 15px auto;
 } 
+
+header .tag {
+  text-shadow: 3px 3px 12px black;
+  padding: 5px;
+}
+
 .location {
   background-color: rgba(34, 34, 34, 0);
   color: yellow;
-  padding: 1px;
+  font-size: 23px;
+  text-shadow: 4px 4px 10px black;
+  padding: 5px;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
+  max-width: 540px;
+  text-align: center;
+  background: rgb(238, 238, 238);
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 12px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: orangered;
 }
 
 ul.skills {
@@ -111,14 +120,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: orangered;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #007ba0;
 }
 
 footer {
